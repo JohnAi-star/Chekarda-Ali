@@ -1,0 +1,46 @@
+import { env } from '@/env.mjs'
+
+export const siteConfig = {
+  name: 'Chekarda Ali',
+  title: 'Chekarda Ali | Front-end developer',
+  description:
+    "Hello, I'm Chekarda Ali. I am front-end developer from Algeria. I enjoy building sites and apps. My focus is React (Next.js).",
+  keywords: [
+    'Chekarda Ali',
+    'Front-end developer',
+    'Algeria',
+    'React',
+    'TypeScript',
+    'Next.js',
+    'Web development',
+    'WoedPress',
+    'Front-end',
+    'UI/UX',
+    'Responsive design',
+    'JavaScript',
+    'HTML',
+    'CSS',
+    'Portfolio',
+    'Projects',
+    'Website',
+    'Web applications',
+    'Developer',
+    'Code',
+    'Programming',
+    'Tech enthusiast',
+  ],
+  creator: 'Build With Chekarda',
+  url: '#',
+  contact: {
+    email: 'alichekarda21@gmail.com',
+    linkedin: '#',
+    github: '#',
+  },
+  links: {
+    contactForm: '/#contact',
+    linkedin: '#',
+    github: 'https://github.com/JohnAi-star/',
+    mailTo: 'mailto:alichekarda21@gmail.com',
+    cvPdf: '/Ali_Chekarda_CV.pdf',
+  },
+}
