@@ -42,5 +42,6 @@ export const siteConfig = {
     github: 'https://github.com/JohnAi-star/',
     mailTo: 'mailto:alichekarda21@gmail.com',
     cvPdf: '/Ali_Chekarda_CV.pdf',
+    sohailYoutube: '#',
   },
 }
