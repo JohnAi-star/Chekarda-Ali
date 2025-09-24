@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import SectionHeading from './section-heading'
 import { Badge } from './ui/badge'
+import Image from 'next/image'
 
 const fadeInAnimationVariants = {
   initial: {
@@ -63,7 +64,7 @@ export default function ProjectsSection() {
               target="_blank"
               className="overflow-hidden rounded"
             >
-              <img
+              <Image
                 src={data.image}
                 alt={data.title}
                 className="pointer-events-none mx-auto h-40 w-full object-cover object-top"
